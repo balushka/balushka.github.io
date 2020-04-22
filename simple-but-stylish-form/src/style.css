@@ -1,0 +1,21 @@
+label,
+input,
+button {
+  display: block;
+  text-transform: uppercase;
+  font-family: "Playfair Display";
+}
+input {
+  height: 40px;
+  border-radius: 10px;
+  border-color: yellowgreen;
+  border-width: 2px;
+  margin-bottom: 20px;
+  border-style: solid;
+}
+button {
+  height: 40px;
+  border-radius: 20px;
+  background: yellowgreen;
+  border-style: solid;
+}

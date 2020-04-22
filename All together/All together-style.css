@@ -1,0 +1,54 @@
+.surround {
+    width: 500px;
+    margin:auto;
+}
+.header {
+    height: 100px;
+    background: aqua;
+   width: 100%;
+}
+
+.main {
+    display: flex;
+    height: 500px;
+    justify-content: space-between;
+    
+
+}
+
+.left {
+    background: orange;
+    width:20%;
+    /* flex-grow: 1; */ /* a space between miatt width=20% van, hogy legyen fenmaradó hely*/
+}
+
+.middle {
+    position: relative;
+    background: red;
+    width: 50%;
+  /*   margin-left: 20px; /* a space between miatt width=20% van, hogy legyen fenmaradó hely*/
+    margin-right: 20px; */
+    /* flex-grow: 3; */
+}
+
+.right {
+    background: purple;  
+    /* flex-grow: 1; */ /* a space between miatt width=20% van, hogy legyen fenmaradó hely*/
+    width: 20%;
+}
+
+.footer {
+    height: 100px;
+    background:blue;
+   width: 100%;
+}
+
+.fixed {
+    position: absolute;
+    background: black;
+    height: 50px;
+    width: 50px;
+    right: 20px;
+    bottom: 20px;
+    box-shadow:  0px 0px 5px 2px grey;
+}

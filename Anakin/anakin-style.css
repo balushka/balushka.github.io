@@ -1,0 +1,118 @@
+body {
+    margin-top: 0px;
+}
+.main {
+    width: 1300px;
+    margin-left:auto;
+    margin-right: auto;
+    margin-top: 0px;
+    margin-bottom: 60px;
+    border-top: 10px solid black;
+    padding: 0px;
+    padding-top: 0px;
+    /* background: yellow; */
+
+}
+.header-container, blockquote{
+    font-family: 'Abril Fatface', cursive;
+    color: #222;
+}
+
+.header-container {
+    display: flex;
+    flex-direction: column;  
+
+    position: relative;
+    
+}
+
+blockquote {
+    background: #222;
+    margin-left: 0px;
+    width: 100%;
+    color: white;
+    padding-bottom: 30px;
+    position: relative;
+}
+
+
+.quotation-mark {
+    font-size: 100px;
+    padding-left: 0px;
+    
+}
+.quote {
+    display: inline;
+    width: 100%;
+    font-size: 50px;
+}
+
+img {
+    height: 400px;
+    width: 100%;
+    
+}
+
+.image-text {
+    position: absolute;
+    bottom:40px;
+    left: 300px;
+    
+}
+.image-text > :nth-child(1){
+    font-size: 40px;
+    
+}
+.image-text > :nth-child(2){
+    font-size: 70px;
+    
+}
+
+.curriculum {
+    /* background: yellowgreen; */
+    font-family: 'Josefin Sans';
+    margin-left: 250px;
+    margin-right: 250px;
+    margin-top: 50px;
+}
+p {
+    font-family: 'Josefin Sans';
+    padding-left: 50px;
+}
+
+.bigger-paragraph {
+    font-size: 20px;
+    margin:0px;
+}
+
+h1, h2, h3 {
+    padding-left: 50px;
+}
+h3 {
+    font-family: 'Merriweather';
+}
+
+ul {
+    padding-left: 90px;
+    font-family: 'Josefin Sans';
+    
+    list-style-type: square;
+    margin-bottom: 10px;
+}
+
+#bigger-list {
+    font-size: 20px;
+}
+
+
+li {
+    margin-bottom: 10px;  
+}
+
+hr {
+    
+    border: 2px solid black;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    
+}

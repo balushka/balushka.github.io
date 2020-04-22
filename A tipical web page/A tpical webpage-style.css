@@ -1,0 +1,32 @@
+.header {
+    height: 50px;
+    background: purple;
+    display: flex;
+}
+
+.header-item {
+    height: 30px;
+    width: 100px;
+    background: cyan;
+    margin: 10px;
+}
+.main-part {
+    display: flex;
+}
+
+.main-part-item {
+    height: 500px;
+}
+
+.yellow {
+    background: yellow;
+    flex-grow: 4;
+}
+
+.green {
+    background: lime;
+    flex-grow: 1;
+}
+.bigger {
+    width: 150px;
+}

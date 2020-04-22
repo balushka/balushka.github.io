@@ -1,0 +1,53 @@
+.header {
+    height: 70px;
+    background: purple;
+    position: fixed;
+    top:0;
+    display: flex;
+    align-items: center;
+    width:100%;
+    padding-left: 90px;
+    
+}
+
+.header-item {
+   
+    height: 30px;
+    width: 100px;
+    background: cyan;
+    margin: 10px;
+    
+}
+.main-part {
+    display: flex;
+    flex-direction: row-reverse;
+    margin-top: 90px;
+    margin-left: 100px;
+    margin-right: 100px
+    
+}
+
+.main-part-item {
+    height: 500px;
+   
+}
+
+.yellow {
+    background: yellow;
+    flex-grow: 4;
+}
+
+.green {
+    background: lime;
+    flex-grow: 1;
+}
+.bigger {
+    width: 150px;
+}
+.footer {
+    height:80px;
+    margin-top: 10px;
+    background: lightgrey;
+    margin-left: 100px;
+    margin-right: 100px
+}

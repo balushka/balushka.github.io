@@ -1,0 +1,26 @@
+body {
+  font-family: "Playfair Display";
+}
+h1 {
+  font-weight: bold;
+  color: red;
+}
+h2 {
+  font-weight: bold;
+  color: blue;
+}
+ul {
+  list-style-type: square;
+}
+ol {
+  list-style-type: upper-roman;
+}
+.blue {
+  color: blue;
+}
+.black {
+  color: black;
+}
+.underlined {
+  text-decoration: underline;
+}

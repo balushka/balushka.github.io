@@ -1,0 +1,24 @@
+* {
+    font-family: 'Sen', sans-serif;
+}
+img {
+    width: 150px;
+   
+}
+a {
+    display: block;
+}
+.container {
+    width: 400px;
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+.section{
+    text-align: center;
+    width: 200;
+
+}
+
+

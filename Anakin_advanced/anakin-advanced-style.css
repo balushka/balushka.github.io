@@ -1,0 +1,193 @@
+
+html {
+    scroll-behavior: smooth;
+
+}
+
+body {
+    margin: 0px; 
+}
+
+.main {
+    width: auto;
+    margin-left:auto;
+    margin-right: auto;
+   
+    /* background: yellow; */
+
+}
+
+.main-menu {
+    font-family: 'Josefin Sans';
+    height: 100px;
+    width: 100%;
+    font-size: 60px;
+    background: #222;
+    color: white;
+    
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    position: fixed;
+    top: 0px;
+    
+}
+
+.main-menu-item {
+    cursor: pointer;
+}
+
+.main-menu-item > a:link, .main-menu-item > a:visited {
+    color: white;
+    text-decoration: none;
+    
+}
+
+
+.main-menu-item > a:active {
+    color: lightblue;
+}
+
+.panel-container {
+    display: flex;
+}
+
+.left-panel, .right-panel {
+   width: 500px;
+    background: rgb(177, 179, 176);
+}
+
+.overview {
+    display: flex;
+    position: relative;
+    z-index: -1;         /*EZt is megkérdezni: azért kell, mert hátra küldi a fixed pozi mögé relativ pozijuakat*/
+    /* margin-bottom: 50px; */
+    padding-top: 100px;  /*Ezt megkérdezni, mert ez csak a navigáció miatt van*/
+}
+
+
+.chapter {
+    display: flex;   
+    padding-top: 100px;  /*Ezt megkérdezni, mert ez csak a navigáció miatt van*/
+    
+}
+
+.chapter-quote{
+    width: 40%;
+
+}
+
+.chapter-content{
+    width: 60%;
+
+}
+
+
+blockquote {
+    font-family: 'Abril Fatface', cursive;
+    background: #222;
+    margin-left: 0px;
+    width: 100%;
+    color: white;
+    padding-bottom: 30px;
+    padding-top: 30px;
+    position: relative;
+    z-index: -1;
+}
+
+blockquote::before{
+    position: absolute;
+    content: '\201C';
+    color: white;
+    font-size: 120px;
+    line-height: 50px;
+    
+
+}
+
+blockquote p {
+    font-family: 'Abril Fatface', cursive;
+    margin: 0px;
+    font-size: 60px;
+    padding-left: 30px;
+    padding-top: 10px;
+}
+
+img {
+    height: 400px;
+    width: 100%;
+    object-fit: cover;
+    
+}
+
+.image-text {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    bottom:40px;
+    left: 150px;
+    font-weight: bolder;
+    color: #222;
+
+    font-family: 'Abril Fatface', cursive;    
+}
+
+.image-text > :nth-child(1){
+    font-size: 50px;
+    
+}
+
+.image-text > :nth-child(2){
+    font-size: 80px;
+    
+}
+
+.curriculum {
+    /* background: yellowgreen; */
+    font-family: 'Josefin Sans';
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 60px;
+}
+
+p {
+    font-family: 'Josefin Sans';
+    padding-left: 50px;
+}
+
+.bigger-paragraph {
+    font-size: 20px;
+    margin:0px;
+}
+
+h1, h2, h3 {
+    padding-left: 50px;
+}
+h3 {
+    font-family: 'Merriweather';
+}
+
+ul {
+    padding-left: 90px;
+    font-family: 'Josefin Sans';
+    
+    list-style-type: square;
+    margin-bottom: 10px;
+}
+
+#bigger-list {
+    font-size: 20px;
+}
+
+
+li {
+    margin-bottom: 10px;  
+}
+
+hr {
+    
+    border: 2px solid black;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    
+}
