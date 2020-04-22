@@ -26,8 +26,8 @@
     position: relative;
     background: red;
     width: 50%;
-  /*   margin-left: 20px; /* a space between miatt width=20% van, hogy legyen fenmaradó hely*/
-    margin-right: 20px; */
+     /* margin-left: 20px; /* a space between miatt width=20% van, hogy legyen fenmaradó hely*/
+   /* margin-right: 20px;  */
     /* flex-grow: 3; */
 }
 
