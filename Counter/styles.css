@@ -1,0 +1,7 @@
+button {
+    font-family: 'Baloo Thambi 2', cursive;
+    border-radius: 4px;
+    font-size: 20px;
+    box-shadow: 3px 3px 5px 6px #ccc;
+    margin: 10px;
+}
