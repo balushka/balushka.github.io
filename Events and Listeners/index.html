@@ -4,20 +4,25 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Baloo+Thambi+2:wght@500&display=swap" rel="stylesheet">
     <title>Events and Listeners</title>
 </head>
 <body>
-    <div>
-        <button id="tatika">Click me!</button>
-        <button id="balika">Don't click me!</button>
-        <button id="kakika">This you really should not click!</button>
-    </div>
-
-    <div>
-        <input type="text" id="input-color" value="blue">
-        <button id="chg-button1">Change bg of buttons</button>
-        <button id="chg-button2">Change bg of buttons only once</button>
-
+    <div class="container">
+        <div class="box">
+            <button id="tatika">Click me!</button>
+            <button id="balika">Don't click me!</button>
+            <button id="kakika">This you really should not click!</button>
+        </div>
+    
+        <div class="box">
+            <label for="#input-color">Enter desired background color here:</label>
+            <input type="text" id="input-color" value="blue">
+        </div>
+        <div class="box">
+            <button id="chg-button1">Change background of buttons</button>
+            <button id="chg-button2">Change background of buttons only once</button>
+        </div>
     </div>
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>

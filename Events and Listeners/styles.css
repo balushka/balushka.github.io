@@ -1,0 +1,20 @@
+* {
+    font-family: 'Baloo Thambi 2', cursive;
+    font-size: 15px;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    
+}
+
+.box {
+    margin: 10px;
+}
+
+button {
+    margin: 10px;
+    box-shadow: 5px 5px 10px 3px lightgrey;
+}

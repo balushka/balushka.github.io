@@ -16,13 +16,13 @@ $('#tatika').on('click', () => {
 
 
 let changeBtnText = () => {
-    $('#tatika').text('I told you!');
+    $('#tatika').text('Why did you press the other button?!');
 }
 
 $('#balika').click(changeBtnText);
 
 let changeAllButtonBg = () => {
-    $('button').css('background', 'blue');
+    $('button').css('background', 'lightblue');
 }
 
 $('#kakika').click(changeAllButtonBg);
