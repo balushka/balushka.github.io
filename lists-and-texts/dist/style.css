@@ -24,3 +24,7 @@ ol {
 .underlined {
   text-decoration: underline;
 }
+
+.myName {
+  font-weight: bold;
+}

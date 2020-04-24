@@ -1,6 +1,7 @@
 body {
     font-family: 'Henny Penny';
-    font-size: 20px;
+    font-size: 30px;
+    color: white;
 }
 .direction-box {
     width: 300px;
@@ -14,17 +15,17 @@ p {
 }
 
 .direction-n {
-    background-color:darkturquoise;
+    background:#E67676;
 }
 
 .direction-w {
-    background-color: coral;
+    background: #F2F062;
 }
 
 .direction-s {
-    background-color: darkgoldenrod;
+    background: #A9E6E6;
 }
 
 .direction-e {
-    background-color: darkseagreen;
+    background: #7692E4;
 }
