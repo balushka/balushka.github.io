@@ -4,6 +4,7 @@ body{
     display: flex;
     justify-content: center;
     font-family: 'Roboto', sans-serif;
+    color: #c8c8c8;
 }
 
 #add-button {
