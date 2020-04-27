@@ -1,0 +1,96 @@
+body {
+    display: flex;
+    flex-direction: column;
+    margin: 0px;
+    justify-content: center;
+    background: silver;
+    align-items: center;
+
+    box-shadow: inset 0px 0px 400px ;
+}
+
+.image-viewer {
+   
+    display: flex;
+    width: 700px;
+    margin-top: 100px;
+    margin-bottom: 50px;
+    box-shadow: 2px 2px 10px 2px grey;
+    
+}
+
+.arrow-holder {
+    display: flex;
+    background: lightgrey;
+    flex-grow: 1;
+    justify-content: center;
+    align-items: center;
+
+   
+}
+
+#left-arrow:hover {
+    cursor: pointer;
+}
+#right-arrow {
+    transform: rotate(0.5turn);
+    cursor: pointer;
+}
+
+
+#center {
+   
+}
+
+#picture-holder {
+    display: flex;
+    position: relative;
+}
+
+#description {
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    padding-left: 20px;
+
+    background: black;
+    opacity: 50%;
+    font-family: 'Baloo Thambi 2', cursive;
+    color: blanchedalmond;
+
+}
+#picture {
+    height: 400px;
+    flex-grow: 10;
+    
+}
+
+
+#description-header {
+   margin-top: 10px;
+   margin-bottom: 0px;
+}
+
+#description-text {
+    margin-top: 0px;
+   
+}
+
+.thumbnail-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.thumbnail-holder {
+    margin: 10px;
+    box-shadow: 0 10px 6px -6px black;
+}
+
+#thumbnail-1 {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border: 3px solid lightgray;
+   
+}
