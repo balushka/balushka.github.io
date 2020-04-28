@@ -85,12 +85,78 @@ body {
 .thumbnail-holder {
     margin: 10px;
     box-shadow: 0 10px 6px -6px black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    position: relative;
+}
+/*A szelektált doboznak nincs felső marginja selected-thumbnalje meg classtoggle hidden*/
+/*a thumbnail-holder-1 a szelektált holdert jelenti*/
+/*a pizíciója a tool tip miatt relatív*/
+.thumbnail-holder-1 {
+
+    margin-bottom: 10px;
+    margin-right: 10px;
+    margin-left: 10px;
+    box-shadow: 0px 10px 6px -6px black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    position: relative;
 }
 
-#thumbnail-1 {
+
+.thumbnail-pic {
     width: 100px;
     height: 100px;
     object-fit: cover;
     border: 3px solid lightgray;
    
+}
+
+.selected-thumbnail-arrow {
+    
+    width: 0px;
+    height: 0px;
+    
+    border-top: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-left: 10px solid transparent;
+    border-bottom: 10px solid lightgray;
+}
+
+.tooltip-holder {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    opacity: 80%;
+
+    position: absolute;
+    top: -6px;
+}
+
+.tooltip-arrow {
+    
+    width: 0px;
+    height: 0px;
+    
+    border-top:  10px solid black;
+    border-right: 10px solid transparent;
+    border-left: 10px solid transparent;
+    border-bottom: 10px solid transparent;
+    
+}
+
+.tooltip {
+    color: lightgray;
+    background: black;
+    padding: 4px;
+}
+
+
+
+.hidden {
+    visibility: hidden;
 }
