@@ -21,7 +21,7 @@ let picture3 = {
 let picture4 = {
     id: 3,
     src: "pictures\\DSC_0947conc.jpg",
-    title: "Bali Dobol",
+    title: "Hátul a Bali Dobol",
     description: "Bali tolja a ritmus szekciót, hogy a többieknek jó legyen"
 };
 let picture5 = {
