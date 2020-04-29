@@ -2,27 +2,27 @@ let picture1 = {
     id: 0,
     src: "pictures\\DSC_0928conc.jpg",
     title: "Miki énekel",
-    description: "Ezen a képen Miki énekel, Anita, tolja basszgitárt ezerrel"
+    description: "Miki énekel, Anita, tolja basszgitárt ezerrel"
 };
 
 let picture2 = {
     id: 1,
     src: "pictures\\DSC_0934conc.jpg",
     title: "Balázs szólóba kezd",
-    description: "Ezen a képen Miki kipengette magát, Balázs szólóba kezd"
+    description: "Miki kipengette magát, Balázs szólóba kezd"
 };
 
 let picture3 = {
     id: 2,
     src: "pictures\\DSC_0939conc.jpg",
     title: "Balázs befejezte a szólót",
-    description: "Ezen a képen Balázs egy atomcsászári szólisztikus kinyilatkoztatáson van túl!"
+    description: "Balázs egy atomcsászári szólisztikus kinyilatkoztatáson van túl!"
 };
 let picture4 = {
     id: 3,
     src: "pictures\\DSC_0947conc.jpg",
     title: "Bali Dobol",
-    description: "Ezen a képen Bali tolja a rimus szekciót, hogy a többieknek jó legyen"
+    description: "Bali tolja a ritmus szekciót, hogy a többieknek jó legyen"
 };
 let picture5 = {
     id: 4,
@@ -34,7 +34,7 @@ let picture6 = {
     id: 5,
     src: "pictures\\DSC_0966conc.jpg",
     title: "A két gitáros",
-    description: "Slash és Jhon Frusciante - Szinte hihetetlen, hogy itt voltak!"
+    description: "Slash és Jhon Frusciante - Szinte hihetetlen, hogy mindketten itt voltak!"
 };
 
 let pictures = [picture1, picture2, picture3, picture4, picture5, picture6];
