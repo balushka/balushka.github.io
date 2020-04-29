@@ -16,13 +16,15 @@ body {
     margin-top: 100px;
     margin-bottom: 50px;
     box-shadow: 2px 2px 10px 2px grey;
+    justify-content: space-between;
+
     
 }
 
 .arrow-holder {
     display: flex;
     background: lightgrey;
-    flex-grow: 1;
+    width: 50px;
     justify-content: center;
     align-items: center;
 
@@ -94,7 +96,7 @@ body {
 /*A szelektált doboznak nincs felső marginja selected-thumbnalje meg classtoggle hidden*/
 /*a thumbnail-holder-1 a szelektált holdert jelenti*/
 /*a pizíciója a tool tip miatt relatív*/
-.thumbnail-holder-1 {
+.selected {
 
     margin-bottom: 10px;
     margin-right: 10px;
