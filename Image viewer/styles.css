@@ -12,7 +12,7 @@ body {
 .image-viewer {
    
     display: flex;
-    width: 700px;
+    width: 800px;
     margin-top: 100px;
     margin-bottom: 50px;
     box-shadow: 2px 2px 10px 2px grey;
@@ -63,9 +63,9 @@ body {
 
 }
 #picture {
-    height: 400px;
-    flex-grow: 10;
-    
+    height: 500px;
+    width: 720px;
+    object-fit: cover;
 }
 
 
