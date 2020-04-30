@@ -33,8 +33,8 @@ let picture5 = {
 let picture6 = {
     id: 5,
     src: "pictures\\DSC_0966conc.jpg",
-    title: "A két gitáros",
-    description: "Slash és Jhon Frusciante - Szinte hihetetlen, hogy mindketten itt voltak!"
+    title: "Slash és Frusciante",
+    description: "Hát nem hihetetlen, hogy mindketten itt voltak?!"
 };
 
 let pictures = [picture1, picture2, picture3, picture4, picture5, picture6];
@@ -50,11 +50,13 @@ let loadPicture = (pictureNumber) => {
 loadPicture(currentPicture);
 
 $('#right-arrow').on('click', () => {
+   
     if (currentPicture < pictures.length - 1) {
         
         currentPicture++;
         loadPicture(currentPicture);
         selectThumbnail(currentPicture);
+        
     }
 
 });
@@ -73,11 +75,11 @@ let addThumbnail = () => {
         $('.thumbnail-container').append(
             '<div class="thumbnail-holder">' +
 
-            '<div class="tooltip-holder hidden" >' +
+            '<div class="tooltip-holder" >' +
             '<div class="tooltip">' + picture.title + '</div>' +
             '<div class="tooltip-arrow"></div>' +
             '</div>' +
-            '<div class="selected-thumbnail-arrow hidden"></div>' +
+            '<div class="selected-thumbnail-arrow"></div>' +
             '<img class="thumbnail-pic" data-pic-id=' + picture.id + ' src=' + picture.src + ' alt="">' +
             '</div>')
 

@@ -30,19 +30,22 @@ body {
 
    
 }
+.arrow-holder:active {
+    background: white;
+}
 
 #left-arrow:hover {
     cursor: pointer;
 }
+
 #right-arrow {
     transform: rotate(0.5turn);
     cursor: pointer;
 }
 
 
-#center {
-   
-}
+
+
 
 #picture-holder {
     display: flex;
@@ -115,6 +118,7 @@ body {
     height: 100px;
     object-fit: cover;
     border: 3px solid lightgray;
+    cursor: pointer;
    
 }
 
@@ -129,18 +133,27 @@ body {
     border-bottom: 10px solid lightgray;
 }
 
+
+
 .tooltip-holder {
-    display: flex;
+    display: none; 
     flex-direction: column;
     align-items: center;
     opacity: 80%;
 
     position: absolute;
-    top: -6px;
+    top: -40px;
+}
+.thumbnail-holder:hover .tooltip-holder{
+    display: flex;
+}
+
+.selected:hover .tooltip-holder{
+    display: flex;
 }
 
 .tooltip-arrow {
-    
+    display: flex;
     width: 0px;
     height: 0px;
     
@@ -152,9 +165,11 @@ body {
 }
 
 .tooltip {
+    display: flex;
     color: lightgray;
     background: black;
     padding: 4px;
+    font-family: 'Baloo Thambi 2', cursive;
 }
 
 
