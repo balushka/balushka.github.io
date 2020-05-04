@@ -9,16 +9,21 @@ body {
     box-shadow: inset 0px 0px 400px ;
 }
 
+#title {
+    font-family: 'Baloo Thambi 2', cursive;
+    font-size: 40px;
+    font-weight: bold;
+    padding-top: 30px;
+    color: blanchedalmond;
+}
+
 .image-viewer {
-   
     display: flex;
-    width: 800px;
-    margin-top: 100px;
+    width: 860px;
+    margin-top: 50px;
     margin-bottom: 50px;
     box-shadow: 2px 2px 10px 2px grey;
-    justify-content: space-between;
-
-    
+    justify-content: space-between;   
 }
 
 .arrow-holder {
@@ -26,10 +31,9 @@ body {
     background: lightgrey;
     width: 50px;
     justify-content: center;
-    align-items: center;
-
-   
+    align-items: center;  
 }
+
 .arrow-holder:active {
     background: white;
 }
@@ -66,8 +70,8 @@ body {
 
 }
 #picture {
-    height: 500px;
-    width: 720px;
+    height: 600px;
+    width: 800px;
     object-fit: cover;
 }
 
@@ -86,6 +90,7 @@ body {
     display: flex;
     flex-wrap: wrap;
     padding-bottom: 40px;
+    max-width: 1150px;
 }
 
 .thumbnail-holder {
