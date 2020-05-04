@@ -354,6 +354,7 @@ let addThumbnail = () => {
 addThumbnail();
 
 $('div.thumbnail-holder').on('click', (event) => {
+    $('html, body').animate({ scrollTop: 0 }, 'slow');
 
     $(event.currentTarget).siblings().removeClass('selected');
     $(event.currentTarget).siblings().addClass('thumbnail-holder')
@@ -364,7 +365,7 @@ $('div.thumbnail-holder').on('click', (event) => {
 
     currentPicture = $(event.target).attr('data-pic-id');
     loadPicture(currentPicture);
-    $('html, body').animate({ scrollTop: 0 }, 'slow');
+    
 })
 
 let selectThumbnail = (number) => {
