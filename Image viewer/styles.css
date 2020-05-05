@@ -74,7 +74,9 @@ body {
 }
 #picture {
     width: 100%;
-    object-fit: cover;
+    /* height: 500px; */
+    object-fit: contain;
+   
 }
 
 
