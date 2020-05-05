@@ -19,11 +19,14 @@ body {
 
 .image-viewer {
     display: flex;
-    width: 860px;
+/*     width: 860px;
     margin-top: 50px;
-    margin-bottom: 50px;
+    margin-bottom: 50px; */
     box-shadow: 2px 2px 10px 2px grey;
-    justify-content: space-between;   
+    justify-content: space-between;
+    margin-left: 10px;
+    margin-right: 10px;
+    max-width: 860px;
 }
 
 .arrow-holder {
@@ -70,14 +73,13 @@ body {
 
 }
 #picture {
-    height: 600px;
-    width: 800px;
+    width: 100%;
     object-fit: cover;
 }
 
 
 #description-header {
-   margin-top: 10px;
+   margin-top: 0px;
    margin-bottom: 0px;
 }
 
@@ -91,6 +93,7 @@ body {
     flex-wrap: wrap;
     padding-bottom: 40px;
     max-width: 1150px;
+    justify-content: center;
 }
 
 .thumbnail-holder {
@@ -149,7 +152,7 @@ body {
     opacity: 80%;
 
     position: absolute;
-    top: -40px;
+    top: -15px;
 }
 .thumbnail-holder:hover .tooltip-holder{
     display: flex;
@@ -177,6 +180,7 @@ body {
     background: black;
     padding: 4px;
     font-family: 'Baloo Thambi 2', cursive;
+    font-size: 12px;
 }
 
 

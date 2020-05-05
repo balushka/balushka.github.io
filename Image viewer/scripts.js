@@ -313,7 +313,7 @@ let loadPicture = (pictureNumber) => {
 
 loadPicture(currentPicture);
 
-$('#right-arrow').on('click', () => {
+$('#right-arrow-holder').on('click', () => {
    
     if (currentPicture < pictures.length - 1) {
         
@@ -324,7 +324,7 @@ $('#right-arrow').on('click', () => {
     }
 
 });
-$('#left-arrow').on('click', () => {
+$('#left-arrow-holder').on('click', () => {
     if (currentPicture > 0) {
         
         currentPicture--;
