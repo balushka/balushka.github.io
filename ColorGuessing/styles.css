@@ -35,14 +35,13 @@ a {
 }
 
 a:hover {
-    text-decoration: none;
-    background: rgb(133, 172, 236);
-    transition: background 400ms;
-    
+    text-decoration: none;  
+    color: red;
 }
 
 .selected {
     background: rgb(80, 229, 70);
+    transition: background 400ms;
 }
 p {
     font-size: 2rem;
