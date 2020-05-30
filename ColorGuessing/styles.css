@@ -1,0 +1,49 @@
+body {
+    background-color: #232323;
+}
+
+.square {
+    width: 30%;
+    padding-bottom: 30%;
+    background-color: red;
+
+    margin: 1.66%;
+    border-radius: 2rem;
+}
+#the-color {
+    text-transform: uppercase;
+}
+
+.message {
+    font-size: 1rem;
+    font-weight: bold;
+
+}
+
+.jumbotron {
+    background-color: #17a2b8;
+}
+
+.wrongGuess {
+    background-color: #232323;
+}
+
+a {
+    border-radius: 2rem;
+    padding: 0.5rem;
+    font-weight: bold;
+}
+
+a:hover {
+    text-decoration: none;
+    background: rgb(133, 172, 236);
+    transition: background 400ms;
+    
+}
+
+.selected {
+    background: rgb(80, 229, 70);
+}
+p {
+    font-size: 2rem;
+}
