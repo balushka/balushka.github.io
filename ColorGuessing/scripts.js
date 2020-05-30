@@ -32,7 +32,7 @@ let colors = createColors(numberOfBoxes);
 // assign the colors to the squares
 let setColorOfSquares = (numberOfBoxes) => {
     for (let i = 0; i < numberOfBoxes; i++) {
-        squares[i].style.background = colors[i];
+        squares[i].style.backgroundColor = colors[i];
     }
 }
 setColorOfSquares(numberOfBoxes);
@@ -45,20 +45,21 @@ colorTitle.textContent = colorToGuess;
 for (let i = 0; i < numberOfBoxes; i++) {
     squares[i].addEventListener("click", function () {
         if (!isColorFound) { //set the message, jumbotron, and all square background color
-            if (this.style.background === colorToGuess) {
-                message.textContent = "Grats! You won!";
-                jumbotron.style.background = colorToGuess;
+            if (this.style.backgroundColor === colorToGuess) {
+                message.textContent = "You won!";
+                jumbotron.style.backgroundColor= colorToGuess;
                 jumbotron.classList.remove("bg-info");
                 jumbotron.style.transition = "background 1000ms";
                 squares.forEach(element => {
-                    element.style.background = colorToGuess;
+                    element.style.backgroundColor = colorToGuess;
                     element.style.transition = "background 1000ms";
                     isColorFound = true;
                 });
+                newColorsBtn.textContent = "PLAY AGAIN";
             }
             else { //set the background color of square to body background
                 message.textContent = "Try again!";
-                this.style.background = "#232323";
+                this.style.backgroundColor = "#232323";
                 this.style.transition = "background 1000ms";
             }
         }
@@ -74,6 +75,7 @@ let init = () => {
     colorToGuess = colors[randomInInterval(0, numberOfBoxes - 1)];
     colorTitle.textContent = colorToGuess;
     setColorOfSquares(numberOfBoxes);
+    newColorsBtn.textContent = "NEW COLORS"
 }
 // listeners of 'New Colors', 'Easy' and 'Hard' buttons
 newColorsBtn.addEventListener("click", init);
