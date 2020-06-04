@@ -34,20 +34,3 @@ canvas[resize] {
     left: -200px;
     top: 0px;
   }
-/* #div-container {
-    width: 100%;
-   
-    position: absolute;
-    top:0;
-    left:0;
-    z-index: 3;
-} */
-
-/* .cell {
-    border: 2px solid black;
-    height: 7.68vh;
-}
-
-.zindex {
-    z-index: 0;
-} */
